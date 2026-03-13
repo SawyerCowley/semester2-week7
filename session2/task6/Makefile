@@ -1,7 +1,7 @@
 # Makefile for Task 6
 
 CFLAGS = -g #-fsanitize=address -fno-omit-frame-pointer
-EXECS = noleak leak use_after stack_over heap_over testlogin
+EXECS = leak noleak stack_over testlogin use_after heap_over
 
 help:
 	@echo "Task 6 Help:"
